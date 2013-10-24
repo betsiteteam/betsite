@@ -1,0 +1,7 @@
+blubbtest_homepage:
+    pattern:  /default/{name}
+    defaults: { _controller: BlubbtestBundle:Default:index }
+
+blubbuser_crud:
+    pattern:   /user
+    defaults:  { _controller: BlubbtestBundle:User:index }
