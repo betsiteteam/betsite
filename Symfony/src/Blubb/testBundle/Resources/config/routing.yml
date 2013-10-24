@@ -3,5 +3,6 @@ blubbtest_homepage:
     defaults: { _controller: BlubbtestBundle:Default:index }
 
 blubbuser_crud:
-    pattern:   /user
-    defaults:  { _controller: BlubbtestBundle:User:index }
+    resource: "@BlubbtestBundle/Controller/UserController.php"
+    type:     annotation
+    prefix:   /
