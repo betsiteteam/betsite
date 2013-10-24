@@ -1,4 +1,4 @@
 blubb_test:
-    resource: "@BlubbTestBundle/Resources/config/routing.yml"
+    resource: "@BlubbtestBundle/Resources/config/routing.yml"
     prefix:   /
 
